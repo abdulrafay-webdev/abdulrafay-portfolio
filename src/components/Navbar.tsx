@@ -6,9 +6,9 @@ import NavLinks from "./Navlinks";
 
 export default function NavBar() {
   const links = [
-    { name: "WHO WE ARE", link: "#" },
-    { name: "WHAT WE DO", link: "#" },
-    { name: "OUR IMPACT", link: "#" },
+    { name: "WHO AM I", link: "#" },
+    { name: "WHAT I DO", link: "#" },
+    { name: "MY GOALS", link: "#" },
     { name: "CONTACT", link: "#" },
   ];
   // set navbar hide or show background

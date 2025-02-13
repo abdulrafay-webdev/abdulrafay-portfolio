@@ -6,15 +6,15 @@ export default function NavLinks() {
 // widget one 
 const widgetOne = [
   {
-    name : "who we are",
+    name : "who am I",
     link : "#"
   },
   {
-    name : "what we do",
+    name : "what I do",
     link : "#"
   },
   {
-    name : "our impact",
+    name : "My goals",
     link : "#"
   },
 ]

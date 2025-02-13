@@ -54,7 +54,7 @@ const widgetThree = [
 
 
   return (
-    <div className="w-full h-20 px-16 pt-20">
+    <div className="w-full h-20 container mx-auto pt-20">
       <div className=" lg:h-[420px] h-fit max-w-screen-1xl  mx-auto bg-slate-100 ">
         <div className="">
           {/* search section  */}

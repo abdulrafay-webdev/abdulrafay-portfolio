@@ -61,18 +61,19 @@ export default function NavBar() {
   }, []);
 
   return (
-    <div className="bg-cyan-700 w-full h-[200vh]">
-      <div className="w-full h-20 fixed px-16">
+    <div className=" w-full flex justify-center">
+      <div className="container h-20 fixed mx-auto">
         <div className=" flex h-20 max-w-screen-1xl  mx-auto ">
           {/* logo and Hamburger  */}
           <div className="lg:w-[30%] w-[100%] bg-white flex items-center justify-between">
             {/* logo  */}
             <div className=" ml-6 h-full flex items-center">
-              <Image
+              {/* <Image
                 className="w-28"
                 alt="FarPointHQ"
                 src={logo}
-              />
+              /> */}
+              <h1 className="text-2xl font-bold leading-7 font-sans">A.RAFAY</h1>
             </div>
             {/* hamburger  */}
             <div className=" flex justify-center items-center text-center h-full border-opacity-40 border-l border-gray-300">

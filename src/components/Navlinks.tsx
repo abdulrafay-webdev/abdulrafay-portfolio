@@ -2,7 +2,7 @@
 
 import { FaArrowRightLong } from "react-icons/fa6";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import {useState } from "react";
 export default function NavLinks() {
 // widget one 
 const widgetOne = [
@@ -51,11 +51,7 @@ const widgetThree = [
 ]
 
 
-const [activeWidget, setActiveWidget] = useState(null);
 
-const toggleWidget = (index:any) => {
-  setActiveWidget(activeWidget === index ? null : index);
-};
 
 
   return (
